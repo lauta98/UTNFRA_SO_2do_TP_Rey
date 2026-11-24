@@ -1,0 +1,7 @@
+exit
+lsblk
+sudo useradd -s /bin/bash -m lautaro
+sudo passwd lautaro
+sudo su
+cd /etc/sudoers.d
+cat vagrant

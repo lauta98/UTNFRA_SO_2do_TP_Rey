@@ -1,0 +1,9 @@
+cd /etc/sudoers.d
+cat vagrant
+cat << EOF >> lautaro
+lautaro ALL=(ALL) NOPASSWD:ALL
+EOF
+
+chmod 440 lautaro
+ls -l
+exit
